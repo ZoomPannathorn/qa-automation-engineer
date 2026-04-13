@@ -9,6 +9,11 @@ This project is a **portfolio-ready QA automation showcase** built around a demo
 - API validation (Postman + Playwright)
 - Performance testing (Artillery)
 - Manual QA artifacts (test cases, regression checklist, defect report)
+  
+---
+
+## UI Example
+<img width="978" height="869" alt="image" src="https://github.com/user-attachments/assets/180c6089-16b6-4505-ba7e-badd57408912" />
 
 ---
 
