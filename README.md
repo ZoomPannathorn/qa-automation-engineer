@@ -1,4 +1,4 @@
-# QA Automation Engineer Portfolio Project
+# ShopSmart QA Automation Suite
 
 This project is a **portfolio-ready QA automation showcase** built around a demo web application and REST API. It demonstrates real-world QA practices including UI automation, API testing, performance checks, and manual QA documentation — all in one repository.
 
