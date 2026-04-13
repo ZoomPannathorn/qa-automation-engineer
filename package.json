@@ -1,0 +1,19 @@
+{
+  "name": "qa-automation-engineer-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio project for an automation QA engineer using Playwright, Postman/REST, and performance testing.",
+  "scripts": {
+    "start": "python app/server.py",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:all": "playwright test",
+    "report": "playwright show-report",
+    "perf": "artillery run performance/artillery.yml"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "artillery": "^2.0.22",
+    "typescript": "^5.8.3"
+  }
+}

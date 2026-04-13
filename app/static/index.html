@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSmart QA Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <p class="eyebrow">Automation QA Engineer Demo</p>
+        <h1>ShopSmart checkout quality playground</h1>
+        <p class="hero-copy">
+          This mini app is intentionally simple so QA coverage can focus on user value,
+          business rules, and API confidence.
+        </p>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <h2>Login</h2>
+          <form id="login-form" class="stack">
+            <label>
+              Username
+              <input id="username" name="username" type="email" placeholder="admin@demo.test" />
+            </label>
+            <label>
+              Password
+              <input id="password" name="password" type="password" placeholder="password123" />
+            </label>
+            <button id="login-button" type="submit">Sign in</button>
+          </form>
+          <p id="login-status" class="status" aria-live="polite">Not signed in</p>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Products</h2>
+              <p class="muted">Add items to simulate checkout coverage.</p>
+            </div>
+            <span class="badge">Free shipping over $50</span>
+          </div>
+          <div id="product-list" class="product-list"></div>
+        </article>
+      </section>
+
+      <section class="panel summary-panel">
+        <div class="panel-head">
+          <div>
+            <h2>Cart Summary</h2>
+            <p class="muted">Business-rule validation happens here.</p>
+          </div>
+        </div>
+
+        <div class="summary-grid">
+          <div>
+            <p>Items in cart: <strong id="item-count">0</strong></p>
+            <p>Subtotal: <strong id="subtotal">$0.00</strong></p>
+            <p>Shipping: <strong id="shipping">$7.99</strong></p>
+          </div>
+          <div>
+            <p id="shipping-message" class="callout">
+              Add at least $50 worth of items to unlock free shipping.
+            </p>
+            <button id="checkout-button" disabled>Proceed to checkout</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

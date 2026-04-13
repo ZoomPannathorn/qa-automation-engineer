@@ -1,0 +1,25 @@
+config:
+  target: "http://127.0.0.1:8000"
+  phases:
+    - duration: 30
+      arrivalRate: 4
+      name: baseline-load
+    - duration: 30
+      arrivalRate: 8
+      name: moderate-ramp
+  defaults:
+    headers:
+      Content-Type: "application/json"
+
+scenarios:
+  - name: browse-and-login
+    flow:
+      - get:
+          url: "/api/health"
+      - get:
+          url: "/api/products"
+      - post:
+          url: "/api/login"
+          json:
+            username: "admin@demo.test"
+            password: "password123"
