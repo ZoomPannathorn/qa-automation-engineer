@@ -1,36 +1,75 @@
 # QA Automation Engineer Portfolio Project
 
-This project is a portfolio-ready QA automation showcase built around a small demo web app and REST API. It highlights practical automation with Playwright, API validation with Postman-style collections, basic performance coverage, and core QA artifacts such as test cases, regression scope, and defect reporting.
+This project is a **portfolio-ready QA automation showcase** built around a demo web application and REST API. It demonstrates real-world QA practices including UI automation, API testing, performance checks, and manual QA documentation — all in one repository.
 
-## GitHub-Ready Summary
+---
 
-Portfolio project for an Automation QA Engineer role. It combines UI automation, REST API validation, performance testing, and manual QA documentation in one repo so hiring managers can quickly see both technical and test-design skills.
+## 🚀 Overview
 
-## What This Demonstrates
+- UI automation (Playwright)
+- API validation (Postman + Playwright)
+- Performance testing (Artillery)
+- Manual QA artifacts (test cases, regression checklist, defect report)
 
+👉 الهدف: ให้ recruiter เห็นทั้ง **technical skills + QA mindset** ในที่เดียว
+
+---
+
+## 🎯 What This Project Demonstrates
+
+### 🔹 Automation Skills
 - UI automation with Playwright
 - API automation for REST endpoints
-- Basic performance testing with Artillery
-- Manual QA thinking: test design, regression checks, and defect reporting
-- Extra credit areas: business-rule validation, light coding, and UX-oriented review
+- End-to-end test flows
 
-## Project Story
+### 🔹 Testing Coverage
+- Functional testing
+- Regression testing
+- API validation
+- Performance testing (basic)
 
-The sample system is a small retail checkout flow for `ShopSmart QA Demo`. A user logs in, browses products, adds items to a cart, and reviews shipping eligibility.
+### 🔹 QA Thinking
+- Test case design
+- Regression scope definition
+- Clear defect reporting
+- Business rule validation
 
-The project intentionally includes one known business-rule defect:
+---
 
-- The UI copy says free shipping starts at `$50`
-- The application logic actually applies free shipping only at `$75`
+## 🧩 Project Story
 
-That mismatch gives us a realistic defect to report, regress, and automate around.
+This project simulates a small e-commerce system:
 
-## Tooling
+**ShopSmart QA Demo**
+- User logs in
+- Browses products
+- Adds items to cart
+- Checks shipping eligibility
 
-- Playwright for UI and API automation
-- Postman collection for REST coverage
-- Artillery for lightweight performance checks
-- Python standard library server for the local demo app
+### 🐞 Known Defect (Intentional)
+
+| Area | Description |
+|------|------------|
+| UI | Free shipping starts at **$50** |
+| Logic | Free shipping applies at **$75** |
+
+👉 This mismatch is intentionally included to:
+- Demonstrate bug reporting
+- Validate business rules
+- Show regression coverage
+
+---
+
+## 🛠️ Tech Stack
+
+- **Playwright** → UI + API automation
+- **Postman** → API collections
+- **Artillery** → Performance testing
+- **Python** → Local demo server
+
+---
+
+## 📁 Project Structure
 
 ## Structure
 
