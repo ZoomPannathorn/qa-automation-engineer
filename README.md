@@ -5,13 +5,10 @@ This project is a **portfolio-ready QA automation showcase** built around a demo
 ---
 
 ## 🚀 Overview
-
 - UI automation (Playwright)
 - API validation (Postman + Playwright)
 - Performance testing (Artillery)
 - Manual QA artifacts (test cases, regression checklist, defect report)
-
-👉 الهدف: ให้ recruiter เห็นทั้ง **technical skills + QA mindset** ในที่เดียว
 
 ---
 
@@ -131,25 +128,6 @@ Then open [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 - Username: `admin@demo.test`
 - Password: `password123`
-
-## Why This Is Interview-Friendly
-
-This repo does more than prove tool familiarity. It shows how a QA automation engineer thinks:
-
-- turns product behavior into testable scenarios
-- separates smoke and regression coverage
-- validates both UI and API layers
-- documents a business-impacting defect clearly
-- adds performance checks instead of stopping at functional automation
-
-## CV-Ready Highlights
-
-- Built a portfolio QA automation project using Playwright for UI and API testing against a local demo commerce application
-- Designed test coverage for authentication, cart behavior, checkout gating, and shipping business rules
-- Created reusable REST checks with Postman collection assets and environment configuration
-- Added lightweight performance testing with Artillery to validate application responsiveness under load
-- Produced core QA deliverables including test cases, regression checklist, and defect report with business impact analysis
-- Demonstrated cross-functional thinking by validating business rules and user-facing experience, not only technical behavior
 
 ## Suggested Demo Walkthrough
 
